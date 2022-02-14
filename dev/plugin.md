@@ -1,7 +1,7 @@
 # 插件开发文档
 欢迎你使用小明框架开发插件。目前仅支持使用 `Java` 开发小明插件，也欢迎你基于此开发新的 `SDK`！
 
-> 下面示范的插件工程可以在 [插件范例](https://github.com/XiaoMingProject/XiaoMingDocs) 处下载到。欢迎 `clone` 这个仓库对照研究。马上开始你的插件编写之旅吧！
+> 下面示范的插件工程可以在 [插件范例](https://github.com/XiaoMingProject/XiaoMingExample) 处下载到。欢迎 `clone` 这个仓库对照研究。马上开始你的插件编写之旅吧！
 
 ## 配置依赖
 推荐使用 `Maven` 配置依赖。
