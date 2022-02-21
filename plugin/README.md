@@ -6,6 +6,8 @@
 
 小明目前拥有的插件还不算多。如果你有意开发喜欢的插件，欢迎阅读[开发文档](http://chuanwise.cn:10074/#/dev/)，通过添加你的插件后 [Pull Request](https://github.com/XiaoMingProject/XiaoMingBot/pulls)，阅读[发布插件指南](#发布插件指南)后，将你的插件信息放在本页上。
 
+**注意：本页面介绍的是```Java```（也是最通用）插件，有关其他语言，请参见Process扩展，有关与Process协同工作的Python插件，请参考[此repo](https://github.com/XiaoMingProject/XiaoMingDocs)。**
+
 ## 插件列表
 |中文名|英文名|作者|概括|相关页面|
 |---|---|---|---|---|
