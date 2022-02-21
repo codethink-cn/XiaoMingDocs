@@ -6,17 +6,18 @@
 
 小明目前拥有的插件还不算多。如果你有意开发喜欢的插件，欢迎阅读[开发文档](http://chuanwise.cn:10074/#/dev/)，通过添加你的插件后 [Pull Request](https://github.com/XiaoMingProject/XiaoMingBot/pulls)，阅读[发布插件指南](#发布插件指南)后，将你的插件信息放在本页上。
 
-**注意：本页面介绍的是```Java```（也是最通用）插件，有关其他语言，请参见Process扩展，有关与Process协同工作的Python插件，请参考[此repo](https://github.com/XiaoMingProject/XiaoMingDocs)。**
+**注意：若无特殊声明，本文档内所有Python均指Python 3.7.3+**
 
 ## 插件列表
-|中文名|英文名|作者|概括|相关页面|
-|---|---|---|---|---|
-|`XiaoMingMinecraft`|`XiaoMingMinecraft`|`Chuanwise`|让你的小明和服务器互通|[项目地址](https://github.com/Chuanwise/XiaoMingMinecraft) [用户手册](http://chuanwise.cn:10074/#/plugin/XiaoMingMinecraft)|
-|权限|`Permission`|`Chuanwise`|权限管理系统|[项目地址](https://github.com/Chuanwise/Permission)|
-|基础|`Essentials`|`ThymeChen`|基础功能，如禁言、调用限制、自定义指令开头等|[项目地址](https://github.com/ThymeChen/XiaoMing-Essentials)|
-|戳一戳词条|`Nudge`|`ThymeChen`|设置戳一戳时的自动回复|在 `小明练剑场` 群里下载|
-|聊天历史|`ChatHistory`|`ThymeChen`|群聊消息备份|在 `小明练剑场` 群里下载|
-|词库|`LexiconsPro`|`Chuanwise`|自定义关键字随机回复等功能|[项目地址](https://github.com/Chuanwise/LexiconsPro)|
+|中文名|英文名|作者|概括|相关页面|语言|
+|---|---|---|---|---|---|
+|`XiaoMingMinecraft`|`XiaoMingMinecraft`|`Chuanwise`|让你的小明和服务器互通|[项目地址](https://github.com/Chuanwise/XiaoMingMinecraft) [用户手册](http://chuanwise.cn:10074/#/plugin/XiaoMingMinecraft)|Java|
+|权限|`Permission`|`Chuanwise`|权限管理系统|[项目地址](https://github.com/Chuanwise/Permission)|Java|
+|基础|`Essentials`|`ThymeChen`|基础功能，如禁言、调用限制、自定义指令开头等|[项目地址](https://github.com/ThymeChen/XiaoMing-Essentials)|Java|
+|戳一戳词条|`Nudge`|`ThymeChen`|设置戳一戳时的自动回复|在 `小明练剑场` 群里下载|Java|
+|聊天历史|`ChatHistory`|`ThymeChen`|群聊消息备份|在 `小明练剑场` 群里下载|Java|
+|词库|`LexiconsPro`|`Chuanwise`|自定义关键字随机回复等功能|[项目地址](https://github.com/Chuanwise/LexiconsPro)|Java|
+|MCWiki查询|`MinecraftWikiSearch`|`HornCopper`|（Process Plugin Required）搜索Minecraft Wiki，支持重定向和跨站链接。|[项目地址](https://github.com/XiaoMingProject/xiaoming-python-plugins/tree/main/plugins/mcwiki)|Python|
 
 ## 发布插件指南
 欢迎你将你开发的插件公开在小明的插件中心！
