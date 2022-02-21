@@ -1,6 +1,9 @@
 # 插件开发文档
 欢迎你使用小明框架开发插件。目前仅支持使用 `Java` 开发小明插件，也欢迎你基于此开发新的 `SDK`！
 
+若使用```Python```，请搭配Process插件使用，使用、编写以及贡献都请参阅[Python插件中心](https://github.com/XiaoMingProject/xiaoming-python-plugins)。
+**注意：无论你是贡献亦或只是使用插件，都请务必准备好```Python3```环境，尽管没有任何硬性限制，但推荐使用```Linux```来进行进一步的操作。**
+
 > 下面示范的插件工程可以在 [插件范例](https://github.com/XiaoMingProject/XiaoMingExample) 处下载到。欢迎 `clone` 这个仓库对照研究。马上开始你的插件编写之旅吧！
 
 ## 配置依赖
