@@ -33,7 +33,6 @@ java -jar xxx.jar
 pause
 ```
 
-<<<<<<< HEAD
 其中的 `xxx` 是你下载到的 `XiaoMingHost` 文件的名字。例如 `XiaoMingHostTerminal-4.4.jar`。
 
 ##### ***务必注意***
@@ -41,13 +40,6 @@ pause
 1. `-jar XiaoMingHostTerminal-xxx.jar` 是一个整体。你可以继续添加其他的 `JVM` 参数，但是 **请注意**，这些参数应该被添加在 `java` 和 `-jar` 之间， **而不是** 添加到 `-jar` 和 `XiaoMingHostTerminal-xxx.jar` 之间。
 1. `java`，`-jar` 和 `XiaoMingHostTerminal-xxx.jar` 三个部分之间至少要有一个空格。
 1. **请不要** 真的原样复制启动脚本内容。请将文件名修改为你 **将要启动** 的 `XiaoMingHost` 文件的名字。例如，你下载的是 `XiaoMingHostTerminal-4.4.jar`（注意版本号是 `4.4`），你应该写 `java -jar XiaoMingHostTerminal-4.4.jar`。
-=======
-##### ***务必注意***
-1. 
-1. `java`，`-jar` 和 `XiaoMingHostTerminal-xxx.jar` 三个部分之间至少要有一个空格。
-1. 
->>>>>>> 912aaa5f28766b92ab3e73f9d9340cb24138d41f
-
 对于 `Windows` 用户，请将扩展名修改为 `.bat` 或 `.cmd`，例如 `start.bat`。对于 `Linux` 用户，请将扩展名修改为 `.sh`，例如 `start.sh`。这就是小明本体的启动脚本了。
 
 **结尾建议添加一个 `pause` 暂停，方便查看控制台输出。**
