@@ -36,7 +36,7 @@ pause
 <<<<<<< HEAD
 其中的 `xxx` 是你下载到的 `XiaoMingHost` 文件的名字。例如 `XiaoMingHostTerminal-4.4.jar`。
 
-**务必注意**
+##### ***务必注意***
 
 1. `-jar XiaoMingHostTerminal-xxx.jar` 是一个整体。你可以继续添加其他的 `JVM` 参数，但是 **请注意**，这些参数应该被添加在 `java` 和 `-jar` 之间， **而不是** 添加到 `-jar` 和 `XiaoMingHostTerminal-xxx.jar` 之间。
 1. `java`，`-jar` 和 `XiaoMingHostTerminal-xxx.jar` 三个部分之间至少要有一个空格。
