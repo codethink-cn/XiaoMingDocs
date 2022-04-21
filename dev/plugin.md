@@ -21,7 +21,7 @@
 </repositories>
 ```
 
-随后添加 `XiaoMingMinecraft` 依赖：
+随后添加 `XiaoMingBot` 依赖：
 
 ```xml
 <dependencies>
@@ -29,13 +29,13 @@
     <dependency>
         <groupId>cn.chuanwise</groupId>
         <artifactId>XiaoMingBot</artifactId>
-        <version>4.8.2</version>
+        <version>4.8.3</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
 ```
 
-这里面的版本号 `4.8.2` 不一定是最新的（文档偶尔才更新），最新版本号和小明练剑场群文件中的相同。
+这里面的版本号 `4.8.3` 不一定是最新的（文档偶尔才更新），最新版本号和小明练剑场群文件中的相同。
 
 写好之后，你的 `pom.xml` 应该看起来像是这样：
 
@@ -68,7 +68,7 @@
         <dependency>
             <groupId>cn.chuanwise</groupId>
             <artifactId>XiaoMingBot</artifactId>
-            <version>4.8.2</version>
+            <version>4.8.3</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
